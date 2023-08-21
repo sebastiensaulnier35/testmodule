@@ -1,3 +1,3 @@
 import { myTextSubModule } from './common/utils.js'
 
-console.log(myTextSubModule('test2'))
+console.log(myTextSubModule('test3'))
