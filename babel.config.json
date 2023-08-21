@@ -1,0 +1,26 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": {
+          "node": "current"
+        }
+      }
+    ],
+    "@babel/preset-typescript"
+  ],
+  "plugins": [
+    [
+      "module:@babel/plugin-syntax-import-assertions",
+      {
+        "moduleName": "@env",
+        "path": ".env",
+        "blacklist": null,
+        "whitelist": null,
+        "safe": false,
+        "allowUndefined": true
+      }
+    ]
+  ]
+}
